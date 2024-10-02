@@ -1,9 +1,10 @@
-class Demo{
+class demo{
 	public static void main(String[]args){
-		for(int i=1;i<=1;i++){
-			for(char ch='a';ch<='d';ch++){
+			char ch = 'a';
+		for(int i=1;i<=4;i++){
+			
 				System.out.print(ch+" ");
-			}
+			ch++;
 		}
 	}
 }
